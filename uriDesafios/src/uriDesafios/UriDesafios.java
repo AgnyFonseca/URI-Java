@@ -10,13 +10,13 @@ public class UriDesafios {
 		Scanner sc = new Scanner(System.in);
 		
 		//URI 1000
-	    /*System.out.println("Hello World!"); */
+	   	/*System.out.println("Hello World!"); */
 		
 		//URI 1001
 		/*int A = sc.nextInt();
-        int B = sc.nextInt();
-        int X = A + B;
-        System.out.println("X = " + X); */
+        	int B = sc.nextInt();
+        	int X = A + B;
+        	System.out.println("X = " + X); */
 		
 		//URI 1002
 		/*double raio = sc.nextDouble();
@@ -26,9 +26,9 @@ public class UriDesafios {
 		
 		//URI 1003
 		/*int A = sc.nextInt();
-        int B = sc.nextInt();
-        int SOMA = A + B;
-        System.out.printf("SOMA = %d%n", SOMA); */
+        	int B = sc.nextInt();
+        	int SOMA = A + B;
+        	System.out.printf("SOMA = %d%n", SOMA); */
 		
 		//URI 1004
 		/*int x = sc.nextInt();
@@ -259,11 +259,11 @@ public class UriDesafios {
 		} */
 		
 		//URI 1037
-        /*double num = sc.nextDouble();
+        	/*double num = sc.nextDouble();
         
-        if (num < 0 || num > 100) {
-            System.out.println("Fora de intervalo");
-        } else if (num >= 0 && num <= 25) {
+        	if (num < 0 || num > 100) {
+            	   	System.out.println("Fora de intervalo");
+        	} else if (num >= 0 && num <= 25) {
 			System.out.println("Intervalo [0,25]");
 		} else if (num > 25 && num <= 50) {
 			System.out.println("Intervalo (25,50]");
@@ -317,12 +317,12 @@ public class UriDesafios {
 			double notaExame = sc.nextDouble();
 			System.out.printf("Nota do exame: %.1f%n", notaExame);
 			media = (media + notaExame) / 2;
-				if (media >= 5) {
-					System.out.println("Aluno aprovado.");
-				} else {
-					System.out.println("Aluno reprovado");
-				}
-				System.out.printf("Media final: %.1f%n", media);
+			if (media >= 5) {
+			    System.out.println("Aluno aprovado.");
+			} else {
+			    System.out.println("Aluno reprovado");
+			}
+			System.out.printf("Media final: %.1f%n", media);
 			
 		} else {
 			System.out.println("Aluno reprovado.");
@@ -380,11 +380,11 @@ public class UriDesafios {
 		double tra;
 		
 		if ((a < (b + c)) && (b < (a + c)) && (c < (b + a))) {
-				tri = a + b + c;
-				System.out.printf("Perimetro = %.1f%n", tri);	
+		    	tri = a + b + c;
+	            	System.out.printf("Perimetro = %.1f%n", tri);	
 		} else {
-			tra = (a + b) * c / 2;
-			System.out.printf("Area = %.1f%n", tra);
+	     	    	tra = (a + b) * c / 2;
+		    	System.out.printf("Area = %.1f%n", tra);
 		} */
 		
 		//URI 1044
@@ -397,7 +397,7 @@ public class UriDesafios {
 			System.out.println("Nao sao Multiplos");
 		} */
 		
-	    //URI 1045
+	        //URI 1045
 		/*double a = sc.nextDouble();
 		double b = sc.nextDouble();
 		double c = sc.nextDouble();
@@ -469,7 +469,7 @@ public class UriDesafios {
 		}
 		*/
 		
-	    //URI 1048
+	        //URI 1048
 		/*double salario = sc.nextDouble();
 		double aumento = 0;
 		double reajuste = 0;
@@ -531,7 +531,7 @@ public class UriDesafios {
 			System.out.println("minhoca");
 		} */
 		
-	    //URI 1050
+	        //URI 1050
 		/*int d = sc.nextInt();
 		
 		switch (d) {
