@@ -880,6 +880,129 @@ public class UriDesafios {
 		System.out.printf("Percentual de sapos: %.2f", percentS);
 		System.out.print(" %\n");
 		*/
+
+		//URI 1095
+		/*int i = 1;
+		int j = 60;
+		
+		System.out.printf("I=%d", i);
+		System.out.printf(" J=%d%n", j);
+		do {
+			System.out.printf("I=%d", i+=3);
+			System.out.printf(" J=%d%n", j-=5);
+		} while (j != 0); */
+		
+		//URI 1096
+		/*int i = 1;
+		while (i <= 9) {
+			for (int j = 7; j > 4; j--) {
+				System.out.printf("I=%d J=%d%n", i, j);
+			}
+			i+=2;
+		} */
+		
+		//URI 1096
+		/*int i = 1;
+		do {
+			for (int j = 7; j > 4; j--) {
+				System.out.printf("I=%d J=%d%n", i, j);
+			}
+				
+			i+= 2;
+		} while (i <= 9); */
+		
+		//URI 1097
+		/*int i = 1;
+		int j = 7;
+		while (i <= 9) {
+			for (int k = 0; k < 3; k++) {
+				System.out.printf("I=%d J=%d%n", i, j);
+				j--;
+			}
+			j+=5;
+			i+=2;
+		} */
+		
+		//URI 1098
+		/*double i = 0;
+		double j = 1;
+		while (i <= 2) {
+			for (int k = 0; k < 3; k++) {
+				if (i == 0 || i == 1 || i >= 1.9) {
+					System.out.println("I=" + Math.round(i) + " J=" + Math.round(j));
+				} else {
+					System.out.printf("I=%.1f J=%.1f%n", i, j);
+				}
+				j++;
+			}
+			j-=3.0;
+			j = j + 0.2;
+			i = i + 0.2;			
+		} */
+		
+		//URI 1099
+		/*int n = sc.nextInt();
+		int x = 0;
+		int y = 0;
+		int soma;
+		
+		for (int i = 0; i < n; i++) {
+			soma = 0;
+			x = sc.nextInt();
+			y = sc.nextInt();
+			
+			if (y > x) {
+				for (int j = x+1; j < y; j++) {
+					if (j % 2 != 0) {
+						soma += j;
+					}
+				}
+			
+			} else {
+				for (int j = y+1; j < x; j++) {
+					if (j % 2 != 0) {
+						soma += j;
+					}
+				}
+			}
+			
+			System.out.println(soma);
+		} */
+		
+		//URI 1101
+		/*int m;
+		int n;
+		
+		while (((m = sc.nextInt()) > 0) && ((n = sc.nextInt()) > 0)) {
+			int x = 0;
+			
+			if (m > n) {
+				for (int i = n; i <= m; i++) {
+					System.out.printf("%d ", i);
+					 x += i;
+				}
+				System.out.printf("Sum=%d%n", x);
+			} else {
+				for (int j = m; j <= n; j++) {
+					System.out.printf("%d ", j);
+					x += j;
+				}
+				System.out.printf("Sum=%d%n", x);
+			}
+			
+		} */
+		
+		//URI 1113
+		/*int x;
+		int y;
+		
+		while ((x = sc.nextInt()) != (y = sc.nextInt())) {
+			if (x > y) {
+				System.out.println("Decrescente");
+			} else {
+				System.out.println("Crescente");
+			}
+		} */
 		
 		sc.close();
 	}
