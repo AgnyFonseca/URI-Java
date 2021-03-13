@@ -1003,6 +1003,119 @@ public class UriDesafios {
 				System.out.println("Crescente");
 			}
 		} */
+
+		//URI 1114
+		/*int senha = 2002;
+		int x = 0;
+		
+		do {
+			x = sc.nextInt();
+			if (x != senha) {
+				System.out.println("Senha Invalida");
+			} else {
+				System.out.println("Acesso Permitido");
+			}
+			
+		} while (x != senha); */
+		
+		//URI 1115
+		/*int x;
+		int y;
+		
+		do {
+			x = sc.nextInt();
+			y = sc.nextInt();
+			
+			if (x > 0 && y > 0) {
+				System.out.println("primeiro");
+			} else if (x < 0 && y > 0) {
+				System.out.println("segundo");
+			} else if (x < 0 && y < 0) {
+				System.out.println("terceiro");
+			} else if (x > 0 && y < 0) {
+				System.out.println("quarto");
+			}
+			
+		} while (x != 0 && y != 0); */
+		
+		//URI 1116
+		/*int n = sc.nextInt();
+		int x;
+		int y;
+		double resp;
+		
+		for (int i = 0; i < n; i++) {
+			x = 0;
+			y = 0;
+			resp = 0;
+			x = sc.nextInt();
+			y = sc.nextInt();
+			
+			if (y == 0) {
+				System.out.println("divisao impossivel");
+			} else {
+				resp = (double) x / y;
+				System.out.printf("%.1f%n", resp);
+			}
+		} */
+		
+		//URI 1117
+		/*double nota;
+		double media = 0.0;
+		double total = 0.0;
+		int contador = 0;
+		
+		while (contador != 2) {
+			nota = sc.nextDouble();
+			
+			if (nota >= 0.0 && nota <= 10.0) {
+				total += nota;
+				contador++;
+			} else {
+				System.out.println("nota invalida");
+			}
+		}
+		media = total / 2;
+		System.out.printf("media = %.2f%n", media);
+		*/
+		
+		//URI 1118
+		/*double nota;
+		double media;
+		double total;
+		int contador;
+		int sentinela;
+		
+		do {
+			nota = 0.0;
+			media = 0.0;
+			total = 0.0;
+			contador = 0;
+			sentinela = 0;
+			
+			while (contador != 2) {
+				nota = sc.nextDouble();
+				
+				if (nota >= 0.0 && nota <= 10.0) {
+					total += nota;
+					contador++;
+				} else {
+					System.out.println("nota invalida");
+				}
+			}
+			media = total / 2;
+			System.out.printf("media = %.2f%n", media);
+			
+			System.out.println("novo calculo (1-sim 2-nao)");
+			sentinela = sc.nextInt();
+			
+			while (sentinela < 1 || sentinela > 2) {
+				System.out.println("novo calculo (1-sim 2-nao)");
+				sentinela = sc.nextInt();
+			}
+			
+		} while (sentinela != 2); */
+
 		
 		sc.close();
 	}
