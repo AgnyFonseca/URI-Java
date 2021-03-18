@@ -1116,6 +1116,169 @@ public class UriDesafios {
 			
 		} while (sentinela != 2); */
 
+		//URI 1131
+		/*int inter;
+		int gremio;
+		int interContador = 0;
+		int gremioContador = 0;
+		int grenal = 0;
+		int empates = 0;
+		int flag = 0;
+		
+		while (flag != 2) {
+			inter = sc.nextInt();
+			gremio = sc.nextInt();
+			grenal++;
+			
+			if (inter > gremio) {
+				interContador++;
+			} else if (gremio > inter) {
+				gremioContador++;
+			} else {
+				empates++;
+			}
+			
+			System.out.println("Novo grenal (1-sim 2-nao)");
+			flag = sc.nextInt();
+			
+		}
+		
+		System.out.printf("%d grenais%n", grenal);
+		System.out.printf("Inter:%d%n", interContador);
+		System.out.printf("Gremio:%d%n", gremioContador);
+		System.out.printf("Empates:%d%n", empates);
+		
+		if (interContador > gremioContador) {
+			System.out.println("Inter venceu mais");
+		} else {
+			System.out.println("Gremio venceu mais");
+		} */
+		
+		//URI 1132
+		/*int x = sc.nextInt();
+		int y = sc.nextInt();
+		int soma = 0;
+		
+		if (x > y) {
+			for (int i = y; i <= x; i++) {
+				if (i % 13 != 0) {
+					soma += i;
+				}
+			}
+		} else {
+			for (int i = x; i <= y; i++) {
+				if (i % 13 != 0) {
+					soma += i;
+				}
+			}
+		}
+		System.out.println(soma); */
+		
+		//URI 1133
+		/*int x = sc.nextInt();
+		int y = sc.nextInt();
+		
+		if (x > y) {
+			for (int i = y+1; i < x; i++) {
+				if (i % 5 == 2 || i % 5 == 3) {
+					System.out.println(i);
+				}
+			}
+		
+		} else if (y > x) {
+			for (int i = x+1; i < y; i++) {
+				if (i % 5 == 2 || i % 5 == 3) {
+					System.out.println(i);
+				}	
+			}
+		} */
+		
+		//URI 1134
+		/*int n = 0;
+		int alcool = 0;
+		int gasolina = 0;
+		int diesel = 0;
+		
+		while (n != 4) { 
+			n = sc.nextInt();
+			switch (n) {
+			case 1:
+				alcool++;
+				break;
+			case 2:
+				gasolina++;
+				break;
+			case 3:
+				diesel++;
+				break;
+			}
+		}
+		
+		System.out.println("MUITO OBRIGADO");
+		System.out.printf("Alcool: %d%n", alcool);
+		System.out.printf("Gasolina: %d%n", gasolina);
+		System.out.printf("Diesel: %d%n", diesel); */
+		
+		//URI 1142
+		/*int n = sc.nextInt();
+		int c = 1;
+		int p = 0;
+		
+		while (c <= n) {
+			System.out.println((p+1) + " " + (p+2) + " " + (p+3) + " PUM");
+			p+=4;
+			
+			c++;
+		} */
+		
+		//URI 1142
+		/*int n = sc.nextInt();
+		int p = 0;
+		
+		for (int i = 0; i < n; i++) {
+			System.out.println((p+1) + " " + (p+2) + " " + (p+3) + " PUM");
+			p+=4;
+		} */
+		
+		//URI 1143
+		/*int n = sc.nextInt();
+		
+		for (int i = 1; i <= n; i++) {
+			System.out.printf("%d %d %d%n", i, (int) Math.pow(i, 2), (int) Math.pow(i, 3));
+		} */
+		
+		//URI 1145
+		/*int x = sc.nextInt();
+		int y = sc.nextInt();
+		int i = 1;
+		
+		while (i <= y) {
+			for (int j = 0; j < x; j++) {
+				System.out.printf("%d", i);
+				if (i % x == 0) {
+					System.out.print("");
+				} else {
+					System.out.print(" ");
+				}
+				i++;
+			}
+			System.out.println();
+		} */
+		
+		//URI 1146
+		/*int x = sc.nextInt();
+		
+		while (x != 0) {
+			for (int i = 1; i <= x; i++) {
+				if (i == x) {
+					System.out.print(i + "\n");
+				} else {
+					System.out.print(i + " ");
+				}
+			}
+			x = sc.nextInt();
+		} */
+
 		
 		sc.close();
 	}
