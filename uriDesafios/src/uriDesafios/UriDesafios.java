@@ -1398,16 +1398,14 @@ public class UriDesafios {
 		
 		//URI 1158
 		/*int n = sc.nextInt();
-		int x = 0;
-		int y = 0;
-		int soma = 0;
-		int total = 0;
+		int x, y, j, total, soma;
 		
 		for (int i = 1; i <= n; i++) {
+			soma = 0;
 			x = sc.nextInt();
 			y = sc.nextInt();
 			
-			for (int j = x; total < y; j++) {
+			for (j = x, total = 0; total < y; j++) {
 				if (j % 2 != 0) {
 					soma += j;
 					total += 1;
