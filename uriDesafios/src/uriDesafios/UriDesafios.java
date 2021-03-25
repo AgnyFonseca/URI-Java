@@ -1279,6 +1279,143 @@ public class UriDesafios {
 			x = sc.nextInt();
 		} */
 
+		//URI 1151
+		/*int f1 = 0;
+		int f2 = 1;
+		int f3;
+		int n = sc.nextInt();
+		
+		System.out.print(f1 + " " + f2);
+		
+		for (int i = 2; i < n; ++i) {
+			f3 = f1 + f2;
+			System.out.print(" " + f3);
+			f1 = f2;
+			f2 = f3;
+		}
+		System.out.print("\n"); */
+		
+		//URI 1176
+		/*long[] fibonacci = new long[61];
+		int teste = sc.nextInt();
+		int n;
+		
+		fibonacci[0] = 0;
+		fibonacci[1] = 1;
+		for (int i = 2; i <= 60; i++) {
+			fibonacci[i] = fibonacci[i - 2] + fibonacci[i - 1];
+		}
+		
+		for (int j = 0; j < teste; j++) {
+			n = sc.nextInt();
+			System.out.printf("Fib(%d) = %d%n", n, fibonacci[n]);
+		} */
+		
+		//URI 1149
+		/*int a = sc.nextInt();
+		int n = sc.nextInt();
+		int soma = 0;
+		
+		while (n <= 0) {
+			n = sc.nextInt();
+		}
+		
+		for (int i = 1; i <= n; i++) {
+			soma += a;
+			a++;
+		}
+		System.out.println(soma); */
+		
+		//URI 1150
+		/*int x = sc.nextInt();
+		int z = sc.nextInt();
+		int contador = 0;
+		int soma = 0;
+		
+		while (z <= x) {
+			z = sc.nextInt();
+		}
+		
+		while (soma < z) {
+			soma += x;
+			contador++;
+			x++;
+		}
+		System.out.println(contador); */
+		
+		//URI 1153
+		/*int n = sc.nextInt();
+		int fatorial = 1;
+		
+		for (int i = 1; i <= n; i++) {
+			fatorial *= i;
+		}
+		System.out.println(fatorial); */
+		
+		//URI 1154
+		/*int x = sc.nextInt();
+		int soma = 0;
+		int c = 0;
+		double media;
+		
+		while (x > 0) {
+			soma += x;
+			c++;
+			x = sc.nextInt();
+		}
+		
+		media = (double) soma / c;
+		System.out.printf("%.2f%n", media); */
+		
+		//URI 1155
+		/*double s = 1;
+		
+		for (int i = 2; i <= 100; i++) {
+			s = (double) s + 1.0/i;
+		}
+		System.out.printf("%.2f%n", s); */
+		
+		//URI 1156
+		/*double s = 1.0;
+		double x = 2.0;
+		
+		for (int i = 3; i <= 39; i+=2) {
+			s = s + i/x;
+			x = x * 2;	
+		}
+		System.out.printf("%.2f%n",s); */
+		
+		//URI 1157
+		/*int n = sc.nextInt();
+		int i = 1;
+		
+		while (i <= n) {
+			if (n % i == 0) {
+				System.out.println(i);
+			}
+			i++;
+		} */
+		
+		//URI 1158
+		/*int n = sc.nextInt();
+		int x = 0;
+		int y = 0;
+		int soma = 0;
+		int total = 0;
+		
+		for (int i = 1; i <= n; i++) {
+			x = sc.nextInt();
+			y = sc.nextInt();
+			
+			for (int j = x; total < y; j++) {
+				if (j % 2 != 0) {
+					soma += j;
+					total += 1;
+				}
+			}
+			System.out.println(soma);
+		} */
+
 		
 		sc.close();
 	}
