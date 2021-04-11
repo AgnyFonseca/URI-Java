@@ -1414,6 +1414,24 @@ public class UriDesafios {
 			System.out.println(soma);
 		} */
 
+		//URI 1159
+		/*int x = sc.nextInt();
+		
+		while (x != 0) {
+			int total = 0;
+			for (int i = 1; i <= 5; i++) {
+				if (x % 2 != 0) {
+					x++;
+				}
+				if (x % 2 == 0) {
+					total += x;
+				}
+				x += 2;
+			}
+			System.out.println(total);
+			x = sc.nextInt();
+		} */
+
 		
 		sc.close();
 	}
