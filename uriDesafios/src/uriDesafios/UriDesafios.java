@@ -1498,6 +1498,17 @@ public class UriDesafios {
 			}
 		} */
 
+		//URI 1172
+		/*int[] vet = new int[10];
+		
+		for (int i = 0; i < vet.length; i++) {
+			vet[i] = sc.nextInt();
+			if (vet[i] <= 0) {
+				vet[i] = 1;
+			}
+			System.out.println("X[" + i + "] = " + vet[i]);
+		} */
+
 		
 		sc.close();
 	}
