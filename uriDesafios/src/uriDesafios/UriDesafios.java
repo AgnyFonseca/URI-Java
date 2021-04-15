@@ -1509,6 +1509,17 @@ public class UriDesafios {
 			System.out.println("X[" + i + "] = " + vet[i]);
 		} */
 
+		//URI 1173
+		/*int[] vet = new int[10];
+		
+		for (int i = 0; i < vet.length; i++) {
+			if (i == 0) {
+				vet[i] = sc.nextInt();
+			} else {
+				vet[i] = vet[i - 1] * 2;
+			}
+			System.out.println("N[" + i + "] = " + vet[i]);
+		} */
 		
 		sc.close();
 	}
