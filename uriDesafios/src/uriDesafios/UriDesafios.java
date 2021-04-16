@@ -1520,6 +1520,19 @@ public class UriDesafios {
 			}
 			System.out.println("N[" + i + "] = " + vet[i]);
 		} */
+
+		//URI 1174
+		/*double[] a = new double[100];
+		
+		for (int i = 0; i < a.length; i++) {
+			a[i] = sc.nextDouble();
+		}
+		
+		for (int j = 0; j < a.length; j++) {
+			if (a[j] <= 10) {
+				System.out.printf("A[%d] = %.1f%n", j, a[j]);
+			}
+		} */
 		
 		sc.close();
 	}
