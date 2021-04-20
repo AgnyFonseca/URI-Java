@@ -1533,6 +1533,25 @@ public class UriDesafios {
 				System.out.printf("A[%d] = %.1f%n", j, a[j]);
 			}
 		} */
+
+		//URI 1175
+		/*int n[] = new int[20];
+		
+		for (int i = 0; i < n.length; i++) {
+			n[i] = sc.nextInt();
+		}
+		
+		int iFinal = n.length - 1;
+		for (int i = 0; i < n.length / 2; i++) {
+			int auxiliar = n[i];
+			n[i] = n[iFinal];
+			n[iFinal] = auxiliar;
+			iFinal--;
+		}
+		
+		for (int i = 0; i < n.length; i++) {
+			System.out.println("N[" + i + "]" + " = " + n[i]);
+		} */
 		
 		sc.close();
 	}
