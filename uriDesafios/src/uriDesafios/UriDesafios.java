@@ -1552,6 +1552,21 @@ public class UriDesafios {
 		for (int i = 0; i < n.length; i++) {
 			System.out.println("N[" + i + "]" + " = " + n[i]);
 		} */
+
+		//URI 1177
+		/*int[] n = new int [1000];
+		int t = sc.nextInt();
+		int c = 0;
+		
+		for (int i = 0; i < n.length; i++) {
+			if (c < t) {
+				System.out.printf("N[%d] = %d%n", i, c);
+				c++;
+			} 
+			if (c == t) {
+				c = 0;
+			}
+		} */
 		
 		sc.close();
 	}
