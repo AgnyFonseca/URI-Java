@@ -1567,6 +1567,22 @@ public class UriDesafios {
 				c = 0;
 			}
 		} */
+
+		//URI 1178
+		/*double[] n = new double[100];
+		double x = sc.nextDouble();
+		n[0] = x;
+		
+		for (int i = 0; i < n.length; i++) {
+			if (i == 0) {
+				System.out.printf("N[%d] = %.4f%n", i, n[i]);
+			}
+			else {
+				x = x / 2.0;
+				n[i] = x;
+				System.out.printf("N[%d] = %.4f%n", i, n[i]);
+			}
+		} */
 		
 		sc.close();
 	}
