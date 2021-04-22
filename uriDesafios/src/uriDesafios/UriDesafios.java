@@ -1660,6 +1660,27 @@ public class UriDesafios {
 		for (int i = 0; i < cPar; i++) {
 			System.out.println("par[" + i + "] = " + par[i]);
 		} */
+
+		//URI 1180
+		/*int n = sc.nextInt();
+		int[] x = new int[n];
+		int iMenor = 0, menor = 0;
+		
+		for (int i = 0; i < x.length; i++) {
+			x[i] = sc.nextInt();
+			
+			if (i == 0) {
+				menor = x[i];
+				iMenor = i;
+			}
+			
+			else if (x[i] < menor) {
+				menor = x[i];
+				iMenor = i;
+			}
+		}
+		System.out.printf("Menor valor: %d%n", menor);
+		System.out.printf("Posicao: %d%n", iMenor); */
 		
 		sc.close();
 	}
