@@ -1682,6 +1682,114 @@ public class UriDesafios {
 		System.out.printf("Menor valor: %d%n", menor);
 		System.out.printf("Posicao: %d%n", iMenor); */
 		
+		//URI 1181
+		/*double[][] mat = new double[12][12];
+		int linha = sc.nextInt();
+		double soma = 0.0;
+		char t = sc.next().toUpperCase().charAt(0);
+				
+		for (int i = 0; i < mat.length; i++) {
+			for (int j = 0; j < mat[i].length; j++) {
+				mat[i][j] = sc.nextDouble();
+			}
+		}
+				
+		for (int i = 0; i < mat.length; i++) {
+			soma += mat[linha][i];
+		}
+				
+		if (t == 'M') {
+			soma /= mat.length;
+		}
+		System.out.println(String.format("%.1f", soma)); */
+				
+		//URI 1182
+		/*double[][] mat = new double[12][12];
+		int coluna = sc.nextInt();
+		double soma = 0.0;
+		char t = sc.next().toUpperCase().charAt(0);
+				
+		for (int i = 0; i < mat.length; i++) {
+			for (int j = 0; j < mat[i].length; j++) {
+				mat[i][j] = sc.nextDouble();
+			}
+		}
+				
+		for (int i = 0; i < mat.length; i++) {
+			soma += mat[i][coluna];
+		}
+				
+		if (t == 'M') {
+			soma /= mat.length;
+		}
+		System.out.println(String.format("%.1f", soma)); */
+				
+		//URI 1183
+		/*char ch = sc.next().toUpperCase().charAt(0);
+		double[][] mat = new double[12][12];
+		double soma = 0;
+				
+		for (int i = 0; i < mat.length; i++) {
+			for (int j = 0; j < mat[i].length; j++) {
+				mat[i][j] = sc.nextDouble();
+			}
+		}
+				
+		for (int i = 0; i < mat.length; i++) {
+			for (int j = 0; j < mat[i].length; j++) {
+				if (j > i) soma += mat[i][j];
+			}
+		}
+				
+		if (ch == 'M') {
+			soma /= ((mat.length * mat.length) - 12) / 2;
+		}
+		System.out.println(String.format("%.1f", soma)); */
+				
+		//URI 1184
+		/*char ch = sc.next().toUpperCase().charAt(0);
+		double[][] mat = new double[12][12];
+		double soma = 0;
+				
+		for (int i = 0; i < mat.length; i++) {
+			for (int j = 0; j < mat[i].length; j++) {
+				mat[i][j] = sc.nextDouble();
+			}
+		}
+				
+		for (int i = 0; i < mat.length; i++) {
+			for (int j = 0; j < mat[i].length; j++) {
+				if (j < i) soma += mat[i][j];
+			}
+		}
+				
+		if (ch == 'M') {
+			soma /= ((mat.length * mat.length) - 12) / 2;
+		}
+		System.out.println(String.format("%.1f", soma)); */
+				
+		//URI 1185
+		/*char ch = sc.next().toUpperCase().charAt(0);
+		double[][] mat = new double[12][12];
+		double soma = 0;
+				
+		for (int i = 0; i < mat.length; i++) {
+			for (int j = 0; j < mat[i].length; j++) {
+				mat[i][j] = sc.nextDouble();
+			}
+		}
+				
+		for (int i = 0; i < mat.length; i++) {
+			for (int j = 0; j < mat[i].length; j++) {
+				if (j < mat.length-i-1) soma += mat[i][j];
+			}
+		}
+				
+		if (ch == 'M') {
+			soma /= ((mat.length * mat.length) - 12) / 2;
+		}
+		System.out.println(String.format("%.1f", soma)); */
+		
 		sc.close();
 	}
 }
