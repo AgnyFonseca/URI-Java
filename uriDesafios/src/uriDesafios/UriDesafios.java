@@ -2027,6 +2027,18 @@ public class UriDesafios {
 			}
 		} */
 		
+		//URI 1759
+		/*int n = sc.nextInt();
+		
+		for (int i = 1; i <= n; i++) {
+			
+			if (i != n) {
+				System.out.print("Ho ");
+			} else if (i == n) {
+				System.out.print("Ho!\n");
+			}
+		} */
+		
 		sc.close();
 	}
 }
