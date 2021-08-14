@@ -1899,9 +1899,41 @@ public class UriDesafios {
 			soma /= 30;
 		}
 		System.out.println(String.format("%.1f", soma)); */
-				
+		
+		//URI 1435
+		/*int n = sc.nextInt();
+		int x;
+
+		while (n != 0) {
+
+			for (int i = 1; i <= n; i++) {
+				for (int j = 1; j <= n; j++) {
+					x = i;
+					
+					if (j < x) {
+						x = j;
+					}
+					if (n-i+1 < x) {
+						x = n-i+1;
+					}
+					if (n-j+1 < x) {
+						x = n-j+1;
+					}
+					
+					System.out.printf("%3d", x);
+					if (j < n) {
+						System.out.print(" ");
+					} else {
+						System.out.print("\n");
+					}
+				}
+			}
+			System.out.print("\n");
+			n = sc.nextInt();
+		} */
+		
 		//URI 1478
-		int n = sc.nextInt();
+		/*int n = sc.nextInt();
 
 		while (n != 0) {
 
@@ -1925,7 +1957,7 @@ public class UriDesafios {
 			System.out.println(sb);
 
 			n = sc.nextInt();
-		}
+		} */
 		
 		sc.close();
 	}
